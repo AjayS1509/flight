@@ -1,0 +1,47 @@
+.mainDiv{
+    /* max-width: 1440px; */
+    margin: 0 auto;
+    padding: 10px 25px;
+}
+
+.headDiv{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    /* margin:10px 25px; */
+    padding: 10px 0;
+}
+
+.acadmicMa{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    padding: 10px 0;
+}
+
+.tableDiv{
+    overflow: auto;
+    border-radius: 6px;
+    border: 1px solid gray;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.marksDiv{
+    color: black;
+    border: 1px solid black;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-style: hidden;
+    width: 100%;
+    max-width: 100%;
+}
+
+.marksDiv td, .marksDiv th{
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.marksDiv tr:nth-child(1){
+    font-weight: bold;
+}

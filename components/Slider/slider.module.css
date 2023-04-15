@@ -1,0 +1,43 @@
+.sliderDiv{
+    height: 100%;
+    width: 200px;
+    max-width: 1130px;
+    background: #f0f0f0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 25;
+    transition: .2s ease-in-out;
+    contain: strict;
+}
+
+.loginUser{
+    color: black;
+    text-align: center;
+    padding: 12px 12px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 20px 62px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sliderData{
+    color: black;
+    font-size: 16px;
+    padding: 5px 25px;
+}
+
+
+.sectionCon{
+    text-align: center;
+    border: 1px solid grey;
+    padding: 5px 0;
+    border-radius: 4px;
+}
+
+.closeSlider{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}

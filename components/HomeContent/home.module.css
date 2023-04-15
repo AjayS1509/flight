@@ -1,0 +1,17 @@
+.carousel-container {
+    max-width: 1440px; /* Set max width to 100% of viewport width */ /* Set max height to 100% of viewport height */
+    overflow: hidden; /* Hide overflow of carousel container */;
+    margin: 0 auto;
+  }
+  
+  .carousel .slide img {
+    max-width: 100%; /* Set max width of images to 100% */
+    max-height: 100%; /* Set max height of images to 100% */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    width: 80%;
+  }
+
+.alignCe{
+    width: 80%;
+    margin: 0 auto;
+}
